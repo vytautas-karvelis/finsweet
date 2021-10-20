@@ -1,0 +1,32 @@
+.svg1 {
+    background-color:black;
+}
+
+.footer2 {
+    background-color: black;
+    color:white;
+}
+
+.footer2 .container {
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 8rem 0rem;
+}
+
+.footer2 .container .heading {
+    margin-bottom: 2rem;
+}
+
+.footer2 .container .svg1:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.footer2 .container .section2 .address-container {
+    margin-bottom: 1.2rem;
+}
+
+.footer2 .container .section2 .address-container h3 {
+    font-size: 1.5rem;
+}
